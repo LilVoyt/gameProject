@@ -88,8 +88,9 @@ void Teams::teamMove(bool attackSite1) {
 		teamMove(attackSite1);
 		return;
 	case 5:
-		cout << "Are you sure you want to leave?";
+		cout << "Are you sure you want to leave?" << endl;
 		bool isLeave;
+		cout << "1 - exit, 0 - continue" << endl;
 		cin >> isLeave;
 		if (isLeave) {
 			cout << "Exiting the program." << endl;
